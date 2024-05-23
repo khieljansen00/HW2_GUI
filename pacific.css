@@ -1,0 +1,138 @@
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+body {
+	background-color: #00569f;
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul {
+	font-size: 1.2em;
+}
+nav a:visited {
+	color: #344873;
+}
+nav a:hover {
+	color: #FFFFFF;
+}
+h1 {
+	margin-bottom: 0;
+	padding: 10px;
+}
+h2 {
+	color: #3399CC;
+}
+h1,
+h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+#contact {
+	font-size: 90%;
+}
+dt {
+	color: #000033;
+}
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+body {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('ptrbackground.jpg');
+    background-repeat: repeat;
+}
+
+#wrapper {
+    min-width: 600px;
+    width: 80%;
+    margin: 0px auto;
+}
+
+nav {
+    width: 240px;
+    background-color: rgb(168, 195, 223);
+    float: left;
+    display: inline-block;
+    height: 500px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    padding-bottom: 4px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(0,13,63);
+}
+
+header {
+    background-color: rgb(1,9,53);
+    color: rgb(250,255,255);
+    background-image: url('sunset.jpg');
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+#content {
+    background-color: #fff;
+    float: right;
+    width: calc(100% - 240px - 2pc);
+    padding-left: 2.0pc;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    height: calc(500px - 30px - 1.0pc);
+}
+
+footer {
+    background-color: #fff;
+    height: 30.0px;
+    padding-left: 2.0pc;
+    width: calc(100% - 240px - 2pc);
+    float: right;
+    font-style: italic;
+    font-size: 12px;
+    padding-bottom: 1.0pc;
+}
+
+#content img {
+    float: left;
+    padding-right: 20.0px;
+}
+
+
+.resort {
+    color: rgb(99,115,168);
+}
+
+#content p {
+    padding-right: 7px;
+}
+
+#content ul {
+    list-style-type: none;
+    margin-left: 30px;
+    padding-right: 7px;
+}
+
+#content ul li {
+    list-style-image: url('marker.gif');
+    list-style-position: inside;
+}
+
+@media (max-width: 1076px) {
+    nav {
+        height: 800px;
+    }
+    #content {
+        height: calc(800px - 30px - 1.0pc);
+    }
+    #content img {
+        width: 280px;
+    }
+}
+
